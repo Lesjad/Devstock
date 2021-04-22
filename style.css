@@ -1,0 +1,57 @@
+.mainBanner {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-left: 226px;
+    padding-right: 226px;
+}
+
+.contentHolder {
+    vertical-align: middle;
+    display: inline-block;
+    width: 350px;
+    margin:0px;
+    padding:0px;
+}
+
+.registrationSheet {
+    padding: 20px;
+}
+
+.regButton{
+    background-color: white;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #413fb5;
+    margin: 0px;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+#mainContent {
+    font-family: system-ui;
+    margin:auto;
+    display:block;
+    width: 700px;
+    height: 600px;
+    box-shadow: 0px 0px 7px rgba(100, 96, 106, 0.2);
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 1px;
+    padding: 0px;
+}
+
+#imageMainContent{
+    display: block;
+    height: 600px;
+    width: 350px;
+    object-fit: cover;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin:0px;
+    padding: 0px;
+}
