@@ -9,7 +9,7 @@
 
 <body>
     <div>
-        <img class="mainBanner" src="TOLogo.png" alt="Trenuj OnLine Logo" />
+        <img class="mainBanner" src="TOLogo.png" alt="Trenujemy OnLine Logo" />
     </div>
     <div>
         <div id="mainContent">
@@ -17,14 +17,32 @@
                 <div class="registrationSheet">
                     <h1>Zarejestruj się jako trener</h1>
                     <button class="regButton">
-                        <img src="fbIcon.png" />
-                        <span>Rejestracja przez Facebook</span>
+                        <img class="icon" src="fbIcon.png" />
+                        <span class="mediaRegText">Rejestracja przez Facebook</span>
                     </button>
                     <button class="regButton">
-                        <img src="instaIcon.png" />
-                        <span>Rejestracja przez Instagram</span>
+                        <img class="icon" src="instaIcon.png" />
+                        <div class="mediaRegText">
+                            <span>Rejestracja przez Instagram</span>
+                        </div>
                     </button>
-                    
+                </div>
+                <div class="hrWithText">
+                    <hr><span>Lub za pomocą maila</span><hr>
+                </div>
+                <div class="registrationForm">
+                    <div class="leftSideContainer">
+                        <input class="inputSmall" type="text" name="inputFirstName" placeholder="First name..." id="firstName">
+                    </div><!-- 
+                --><div class="rightSideContainer">
+                        <input class="inputSmall" type="text" name="inputLastName" placeholder="Last name..." id="lastName">
+                    </div>
+                    <input class="inputBig" type="text" name="inputEmail" placeholder="Email address..." id="emailAddress">
+                    <input class="inputBig" type="text" name="inputPassword" placeholder="Password..." id="password">
+                    <input type="checkbox" name="checkBoxtermsAndConditionsAgreement" id="termsAndConditionsAgreement">
+                    <label for="termsAndConditionsAgreement">I have read the <a href="http:\\www.google.com" target="_blank">Terms & Conditions</a></label>
+                    <button class="formRegisterButton" type="submit">Zarejestruj się za darmo</button>
+                    <span>Masz już konto? <a href="https:\\www.stronalogowania.pl">Zaloguj się</a></span>
                 </div>
             </div><!--
 

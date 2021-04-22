@@ -1,3 +1,61 @@
+span {
+    vertical-align: middle;
+}
+h1 {
+    font-size: 20px;
+}
+hr{
+    display: inline-block;
+    vertical-align: middle;
+    width: 25%;
+}
+
+input {
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    vertical-align: middle;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color:lightgray;
+    border-style: solid;
+}
+
+label {
+    vertical-align: middle;
+}
+
+button{
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: #413fb5;
+    vertical-align: middle;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    width: 100%;
+}
+
+a:link {
+    color: unset;
+    text-decoration-color: #413fb5;
+    text-underline-offset: 3px;
+    text-decoration-thickness: 3px;
+}
+.inputSmall{
+    width: 140px;
+}
+
+.inputBig{
+    width: 100%;
+}
+
+.hrWithText{
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 .mainBanner {
     display: block;
     margin-left: auto;
@@ -8,6 +66,15 @@
     padding-right: 226px;
 }
 
+.icon {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 0px;
+}
+
 .contentHolder {
     vertical-align: middle;
     display: inline-block;
@@ -16,20 +83,35 @@
     padding:0px;
 }
 
-.registrationSheet {
-    padding: 20px;
+.registrationSheet, .hrWithText, .registrationForm {
+    padding-inline: 20px;
 }
 
 .regButton{
     background-color: white;
-    border-style: solid;
-    border-radius: 5px;
-    border-color: #413fb5;
-    margin: 0px;
+    text-align: start;
 }
 
-h1 {
-    font-size: 20px;
+.formRegisterButton{
+    background-color: #413fb5;
+    color: white;
+    height: 40px;
+}
+
+.mediaRegText{
+    display: inline-block;
+}
+
+.leftSideContainer{
+    display: inline-block;
+    width: 50%;
+    text-align: start;
+}
+
+.rightSideContainer{
+    display: inline-block;
+    width: 50%;
+    text-align: end;
 }
 
 #mainContent {
@@ -46,7 +128,6 @@ h1 {
 }
 
 #imageMainContent{
-    display: block;
     height: 600px;
     width: 350px;
     object-fit: cover;
