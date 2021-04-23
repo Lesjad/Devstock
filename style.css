@@ -1,19 +1,21 @@
-span {
-    vertical-align: middle;
+*{
+    font-family: system-ui;
 }
+
 h1 {
-    font-size: 20px;
+    font-size: 16px;
 }
 hr{
     display: inline-block;
     vertical-align: middle;
-    width: 25%;
+    width: 100%;
 }
 
 input {
-    height: 30px;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    height: 34px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    padding: 0px;
     vertical-align: middle;
     border-radius: 5px;
     border-width: 1px;
@@ -23,62 +25,85 @@ input {
 
 label {
     vertical-align: middle;
+    font-size: 10px;
 }
 
 button{
+    width: 100%;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    vertical-align: middle;
     border-style: solid;
     border-width: 1px;
     border-radius: 5px;
-    border-color: #413fb5;
-    vertical-align: middle;
-    margin-bottom: 5px;
-    margin-top: 5px;
-    width: 100%;
+    border-color: #413fb5;   
+    font-weight: bold;
+    font-size: 11px;
 }
 
 a:link {
     color: unset;
     text-decoration-color: #413fb5;
-    text-underline-offset: 3px;
-    text-decoration-thickness: 3px;
+    text-underline-offset: 2px;
+    text-decoration-thickness: 2px;
 }
+
+.bannerHolder{
+    display: block;
+    margin-inline: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    min-width: 600px;
+    text-align: center;
+}
+
+.iconHolder{
+    display: inline-block;
+    width: 15%;
+    text-align: end;
+}
+.iconButtonTextHolder{
+    display: inline-block;
+    width: 85%;
+    text-align: center;
+    font-weight: bold;
+}
+.icon {
+    display: inline-block;
+    vertical-align: middle;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.hrWithText{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 0px;
+}
+
+.hrWithTextFragment{
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    width: calc(100%/3);
+    font-size: 7px;
+    font-weight: bold;
+}
+
 .inputSmall{
-    width: 140px;
+    width: 95%;
 }
 
 .inputBig{
     width: 100%;
 }
 
-.hrWithText{
-    display: block;
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-.mainBanner {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    padding-left: 226px;
-    padding-right: 226px;
-}
-
-.icon {
-    display: inline-block;
-    vertical-align: middle;
-    padding-left: 20px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    margin-left: 0px;
-}
-
 .contentHolder {
     vertical-align: middle;
     display: inline-block;
-    width: 350px;
+    width: 50%;
+    max-height: 100%;
     margin:0px;
     padding:0px;
 }
@@ -96,10 +121,7 @@ a:link {
     background-color: #413fb5;
     color: white;
     height: 40px;
-}
-
-.mediaRegText{
-    display: inline-block;
+    border-radius: 8px;
 }
 
 .leftSideContainer{
@@ -115,11 +137,10 @@ a:link {
 }
 
 #mainContent {
-    font-family: system-ui;
     margin:auto;
     display:block;
-    width: 700px;
-    height: 600px;
+    width: 600px;
+    /* height: 550px; */
     box-shadow: 0px 0px 7px rgba(100, 96, 106, 0.2);
     border-style: solid;
     border-radius: 10px;
@@ -128,11 +149,20 @@ a:link {
 }
 
 #imageMainContent{
-    height: 600px;
-    width: 350px;
+    /* height: 510px; */
+    width: 100%;
     object-fit: cover;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     margin:0px;
     padding: 0px;
+}
+
+#signIn{
+    vertical-align: middle;
+    font-size: 10px;
+}
+
+#mainContent, #imageMainContent{
+    height: 510px;
 }
