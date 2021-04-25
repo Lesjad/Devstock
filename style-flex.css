@@ -1,0 +1,139 @@
+* {
+    font-family: system-ui;
+}
+
+h4{
+    margin: 10px 0px;
+}
+button {
+    display: flex;
+    padding: 5px 0px;
+    margin: 5px 0px;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 11px;
+    color: white;
+    border-radius: 5px;
+    border-color: #413fb5;
+    border-style: solid;
+    border-width: 1px;
+    background-color: #413fb5;
+}
+button span {
+    flex-grow: 1;
+}
+
+input {
+    box-sizing: border-box;
+    height: 35px;
+    border-radius: 7px;
+    border-color: rgb(233, 233, 233);
+    border-style: solid;
+    border-width: 1px;
+    padding-inline-start: 10px;
+}
+
+a{
+    color: unset;   
+    text-decoration-color: #413fb5;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 2px;
+}
+
+label, .registerForm span{
+    font-size: 10px;
+}
+.header, .main {
+    width: 600px;
+    margin: 20px auto;
+}
+
+.header{
+    text-align: center;
+}
+
+.main {
+    display: flex;
+    box-shadow: 0px 0px 7px rgba(100, 96, 106, 0.2);
+    border-style: solid;
+    border-radius: 7px;
+    border-width: 1px;
+}
+
+.halfMain {
+    display: flex;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.halfMain:nth-of-type(1) {
+    padding: 20px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.halfMain:nth-of-type(2) {
+    border-top-right-radius: inherit;
+    border-bottom-right-radius: inherit;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.mainImage {
+    height: 510px;
+    border-radius: inherit;
+}
+
+.commentHr {
+    display: flex;
+    font-size: 8px;
+    font-weight: bold;
+    margin: 20px 0px;
+}
+
+.commentHr hr {
+    flex-grow: 1;
+}
+.commentHr span {
+    padding: 0px 10px;
+}
+
+.registerWithSocialMedia {
+    display: flex;
+    flex-direction: column;
+}
+
+.registerWithSocialMedia button{
+    padding-left: 30px;
+    background-color: white;
+    color: black;
+}
+
+.registerForm {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: space-evenly;
+}
+
+.registerForm .divInputSmall {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.registerForm .divCheckbox {
+    display: flex;
+    align-items: center;
+}
+
+.registerForm .divCheckbox input{
+    margin: 5px;
+}
+.registerForm button {
+    height: 40px;
+}
+
+.inputSmall {
+    width: calc((100% - 10px)/2);
+}

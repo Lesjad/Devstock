@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Trenujemy Online</title>
+    <link rel="stylesheet" href="style-flex.css" />
+</head>
+
+<body>
+    <div class="header">
+        <img src="TOLogo.png" alt="Trenujemy Online Logo"/>
+    </div>
+    <div class="main">
+        <div class="halfMain">
+            <h4>Zarejestruj się jako trener</h4>
+            <div class="registerWithSocialMedia">
+                <button>
+                    <img src="fbIcon.png" alt="ikonka facebooka">
+                    <span>Rejestracja przez Facebook</span>
+                </button>
+                <button>
+                    <img src="instaIcon.png" alt="ikonka instagrama">
+                    <span>Rejestracja przez Instagram</span>
+                </button>
+            </div>
+            <div class="commentHr">
+                <hr>
+                <span>Lub za pomocą maila</span>
+                <hr>
+            </div>
+            <form class="registerForm" action="TOserver">
+                <div class="divInputSmall">
+                    <input class="inputSmall" type="text" name="fName" placeholder="First name...">
+                    <input class="inputSmall" type="text" name="lastName" placeholder="Last name...">
+                </div>
+                <input type="text" name="email" placeholder="Email address..."/>
+                <input type="password" name="password" placeholder="Password..."/>
+                <div class="divCheckbox">
+                    <input type="checkbox" name="terms&conditions" id="terms&conditions">
+                    <label for="terms&conditions">I have read the <a href="linkForTermsAndConditions">Terms & Conditions</a></label>    
+                </div>
+                <button type="submit">Zarejestruj się za darmo</button>
+                <span>Masz już konto? <a href="signInPage">Zaloguj się</a></span>
+            </form>
+        </div>
+        <div class="halfMain">
+            <img class="mainImage" src="gym.jpg" alt="Dziewczyna w stroju sportowym">
+        </div>
+    </div>
+</body>
+
+</html>
